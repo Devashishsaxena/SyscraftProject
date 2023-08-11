@@ -1,0 +1,330 @@
+//utility import for variavles
+@import "../../Utlilities/variables";
+@import "../../Utlilities/ResponsiveMixin";
+// search bar styling 
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+
+    .search input{
+
+     height: 50px;
+     text-indent: 25px;
+     border: 0px solid #d6d4d4;
+    
+    
+    }
+
+
+    .search input:focus{
+
+     box-shadow: none;
+     border: 2px solid blue;
+
+
+    }
+
+    .search .fa-search{
+
+     position: absolute;
+     top: 22px;
+     left: 16px;
+
+    }
+    .search .fa-location{
+
+        position: absolute;
+        top: 18px;
+        /* left: 0; */
+        right: 25px;
+   
+       }
+
+    .search button{
+
+     position: absolute;
+     top: 5px;
+     right: 10px;
+     height: 50px;
+     width: 110px;
+     background: blue;
+    border-radius: 0.24em;
+    }
+    // .custom-search-bar-p-right-0{
+    //     // padding-right: 0 !important;
+    //     border-right: none;
+    //     border-top-right-radius: 0;
+    //     border-bottom-right-radius: 0;
+    // }
+    .custom-search-bar-p-left-0{
+        padding-left: 0 !important;
+    }
+    .search-bar-row{
+        margin: 3em auto;
+    }
+// search bar styling ends
+
+// hero container
+.hero-section-container{
+    min-height: 40vh;
+    margin: 0 0 3em 0;
+    padding: 20vh 3em;
+    background-image: url(../../assets/images/background3.png);
+    background-size: cover;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+
+//hero container ends 
+
+.black-font-h1{
+    color: black;
+    font-weight: 500;
+
+}
+.gray-font-h1{
+    color: $grey-font-h1;
+    font-size: 0.9em;
+
+    span{
+        color: $primary-color-purple;
+    }
+}
+.content-div-hero{
+    margin: 3em auto 2em auto;
+    h1{
+        font-size: 1.6em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
+}
+.border-right{
+    border-right: 1px solid lightgray;
+}
+.extra-information-hero{
+    
+    display: flex;
+    // justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    p:nth-child(2){
+        margin-bottom: 0.5em;
+        color: $grey-font-h1;
+        font-size: 0.9em;
+        font-weight: 200;
+    }
+    p{
+        margin-bottom: 0.5em;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+   
+}
+.extra-information-hero2{
+    margin: auto auto auto 0.5em;
+    display: flex;
+
+    align-items: flex-start;
+    flex-direction: column;
+    p{
+        margin-bottom: 0.5em;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    p:nth-child(2){
+        margin-bottom: 0.5em;
+        color: $grey-font-h1;
+        font-size: 0.9em;
+        font-weight: 200;
+    }
+   
+}
+
+// popular job category starts
+.align-center-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title-for-category{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.service-grid-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    min-height: 7vh;
+    padding: 1em;
+    span{
+        margin: 1em auto;
+        width:6vh;
+        height: 6h;
+        svg{
+            min-height: 2vh;
+        }
+        img{
+            height:6vh;
+        }
+    }
+    .title-of-service-home{
+        font-weight: 600;
+        font-size: 1em;
+    }
+    .description-of-service-home{
+        font-weight: 200;
+        color: gray;
+        font-size: 0.8em;
+        
+    }
+    
+}
+//btn geegr
+.custom-btn-geegr{
+    background-color: $primary-color-purple !important;
+    
+}
+
+.cont{
+    width: 100%;
+    min-height: 50vh;
+    background-color: white;
+    display: flex;
+    overflow-x:scroll;
+    scroll-snap-type: x mandatory;
+}
+.cont div{
+    min-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    scroll-snap-align: center;
+}
+
+//card styling
+.verification-check-tick{
+   position: relative;
+    height: 2vh;
+    svg{
+        color:$success-color-green;
+        position: absolute;
+        bottom: -54px;
+        right: -9px;
+        height: 4vh;
+        width: 2vh;
+    } 
+}
+
+.title-desc-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    p:nth-child(1){
+        color:black;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 0.2em auto;
+    }
+    p:nth-child(2){
+        color:black;
+        font-weight: 100;
+        font-size: 1em;
+        margin: 0.2em auto;
+    }
+
+}
+.rating-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em auto;
+    span{
+        margin: auto 0.2em;
+        background-color: $yellow-color-geegr;
+        color:white;
+        padding: 0.2em 0.5em;
+        border-radius: 0.2em;
+
+    }
+    div{
+        span{
+            color: $yellow-color-geegr;
+            background-color: transparent;
+        }
+    }
+}
+.bold-p-for-card{
+    font-weight: 600;
+    color: $light-gray-p;
+}
+.black-bold-p-for-card{
+    color:black;
+    font-weight: 600;
+}
+.btn-div-for-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em auto;
+
+    .geegr-btn{
+        padding: 0.5em 1em;
+        border: none;
+        background-color: $primary-color-purple;
+        color:white;
+        border-radius: 0.3em;
+        transition: 1s;
+    }
+    .geegr-btn:hover{
+        padding: 0.5em 1em;
+        border: none;
+        border: 1px solid $primary-color-purple;
+        background-color: white;
+        color:$primary-color-purple;
+        border-radius: 0.3em;
+    }
+}
+.highest-rated-text-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em auto 0.2em auto;
+    padding: 0.55em;
+}
+
+//responsive code
+@include respond-between(lg, xxl){
+    .black-bold-p-for-card{
+        font-size: 0.82em;
+    }
+    .gray-font-h1{
+       
+        padding-right: 16em;
+    }
+    .service-grid-home span svg{
+        height: 4vh;
+        width: 4vh;
+    }
+    .bold-p-for-card{
+        font-size: 0.85em;
+    }
+}
+.wrapper-div{
+    
+}
+

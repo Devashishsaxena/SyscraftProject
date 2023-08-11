@@ -1,0 +1,63 @@
+.message-list {
+  height: 300px;
+  overflow-y: scroll;
+  padding: 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.message-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.message-list li {
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  background-color: lightblue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.chat-app {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.chatbody {
+  box-shadow: 0 0 4px 0 #000;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 500px;
+}
+
+.chatrightbar {
+  display: flex;
+  height: 100%;
+  border-left: 1px solid #d4d4d4;
+  padding-left: 11px;
+}/*# sourceMappingURL=Chat.css.map */

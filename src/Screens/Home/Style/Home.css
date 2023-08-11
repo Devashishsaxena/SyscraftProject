@@ -1,0 +1,350 @@
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+  min-height: 60px;
+  text-indent: 25px;
+  border: 0px solid #d6d4d4;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 22px;
+  left: 16px;
+}
+
+.search .fa-location {
+  position: absolute;
+  top: 40%;
+  /* left: 0; */
+  right: 25px;
+}
+
+.search button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+  border-radius: 0.24em;
+}
+
+.custom-search-bar-p-left-0 {
+  padding-left: 0 !important;
+}
+
+.search-bar-row {
+  margin: 3em auto;
+}
+
+.hero-section-container {
+  min-height: 40vh;
+  margin: 0 0 3em 0;
+  padding: 20vh 3em;
+  background-image: url(../../../assets/images/background3.png);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.black-font-h1 {
+  color: black;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.gray-font-h1 {
+  color: #9d9b9b;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+}
+.gray-font-h1 span {
+  color: #6A2FF9;
+}
+
+.content-div-hero {
+  margin: 3em auto 2em auto;
+}
+.content-div-hero h1 {
+  font-size: 1.6em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.border-right {
+  border-right: 1px solid lightgray;
+}
+
+.extra-information-hero {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.extra-information-hero p:nth-child(2) {
+  margin-bottom: 0.5em;
+  color: #9d9b9b;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+.extra-information-hero p {
+  margin-bottom: 0.2em;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.extra-information-hero2 {
+  margin: auto auto auto 0.5em;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.extra-information-hero2 p {
+  margin-bottom: 0.2em;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+.extra-information-hero2 p:nth-child(2) {
+  margin-bottom: 0.5em;
+  color: #9d9b9b;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+.align-center-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-for-category {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.service-grid-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  min-height: 7vh;
+  padding: 1em;
+}
+.service-grid-home span {
+  margin: 1em auto;
+}
+.service-grid-home span img {
+  height: 80px;
+  width: 80px;
+}
+.service-grid-home .title-of-service-home {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgb(65, 65, 65) !important;
+}
+.service-grid-home .description-of-service-home {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgb(65, 65, 65) !important;
+}
+
+.custom-btn-geegr {
+  background-color: #6A2FF9 !important;
+}
+
+.cont {
+  width: 100%;
+  min-height: 50vh;
+  background-color: white;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.cont div {
+  min-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  scroll-snap-align: center;
+}
+
+.verification-check-tick {
+  position: relative;
+  height: 2vh;
+}
+.verification-check-tick svg {
+  color: #38b653;
+  position: absolute;
+  bottom: -56px;
+  right: -3px;
+  height: 4vh;
+  width: 2vh;
+}
+
+.title-desc-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title-desc-card p:nth-child(1) {
+  color: black;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0.2em auto 0 0;
+}
+.title-desc-card p:nth-child(2) {
+  color: black;
+  font-weight: 100;
+  font-size: 1em;
+  margin: 0.2em auto 0 0;
+}
+
+.rating-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5em auto;
+}
+.rating-div .rating-count {
+  padding: 0.2em 0.5em;
+}
+.rating-div span {
+  margin: auto 0.1em;
+  background-color: #FDBF42;
+  color: white;
+  padding: 0.2em 0.25em;
+  border-radius: 0.2em;
+}
+.rating-div div {
+  margin: 0 0.35em;
+}
+.rating-div div span {
+  color: #FDBF42;
+  background-color: transparent;
+}
+
+.bold-p-for-card {
+  font-weight: 600;
+  color: #B3B7BC;
+}
+
+.black-bold-p-for-card {
+  color: black;
+  font-weight: 600;
+}
+
+.btn-div-for-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0.5em auto;
+}
+.btn-div-for-card .geegr-btn {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #6A2FF9;
+  color: white;
+  border-radius: 0.3em;
+  transition: 1s;
+}
+.btn-div-for-card .geegr-btn:hover {
+  padding: 0.5em 1em;
+  border: none;
+  border: 1px solid #6A2FF9;
+  background-color: white;
+  color: #6A2FF9;
+  border-radius: 0.3em;
+}
+
+.highest-rated-text-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em auto 0.2em auto;
+  padding: 0.55em;
+}
+
+@media (min-width: 320px) and (max-width: 429px) {
+  .extra-information-hero p:nth-child(2) {
+    margin-bottom: 0.5em;
+    color: #9d9b9b;
+    font-size: 0.7em;
+    font-weight: 200;
+  }
+  .extra-information-hero p {
+    margin-bottom: 0.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .extra-information-hero2 p:nth-child(2) {
+    margin-bottom: 0.5em;
+    color: #9d9b9b;
+    font-size: 0.7em;
+    font-weight: 200;
+  }
+  .extra-information-hero2 p {
+    margin-bottom: 0.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .hero-section-container {
+    padding: 2em 3em;
+    background-image: none;
+  }
+  .black-font-h1 {
+    font-size: 1.2em !important;
+  }
+  .gray-font-h1 {
+    font-size: 0.8em !important;
+    line-height: normal;
+  }
+  .search input {
+    min-height: 38px;
+  }
+  .search .fa-search {
+    top: 13px;
+  }
+  .search button {
+    height: 27px;
+    font-size: 0.63em;
+    width: 66px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .black-bold-p-for-card {
+    font-size: 0.82em;
+  }
+  .gray-font-h1 {
+    padding-right: 16em;
+  }
+  .service-grid-home span svg {
+    height: 4vh;
+    width: 4vh;
+  }
+  .bold-p-for-card {
+    font-size: 0.85em;
+  }
+}/*# sourceMappingURL=Home.css.map */

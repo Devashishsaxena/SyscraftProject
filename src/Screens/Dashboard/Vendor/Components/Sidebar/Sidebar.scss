@@ -1,0 +1,123 @@
+.sidebar {
+  min-width: 15% !important;
+  display: flex;
+  flex-direction: column;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: white;
+  margin-top: 40px;
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #6a2ff9;
+    }
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+  }
+
+  .center {
+    padding-left: 0px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .title {
+        font-size: 10px;
+        font-weight: bold;
+        color: #999;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 16px 40px;
+        cursor: pointer;
+
+        &:hover,
+        &.active {
+          background-color: #f0f0f0;
+          span {
+            color: #ad8ff4;
+          }
+          .icon {
+            color: #ad8ff4;
+          }
+        }
+
+        .icon {
+          font-size: 18px;
+          color: #888;
+        }
+
+        span {
+          font-size: 15px;
+          font-weight: 600;
+          color: #888;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    .colorOption {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      border: 1px solid #6a2ff9;
+      cursor: pointer;
+      margin: 5px;
+
+      &:nth-child(1) {
+        background-color: whitesmoke;
+      }
+      &:nth-child(2) {
+        background-color: #333;
+      }
+      &:nth-child(3) {
+        background-color: darkblue;
+      }
+    }
+  }
+}
+.sidebar-width {
+  width: 20%;
+  margin: 1em 0 0 0 !important;
+}
+
+.settingLi {
+  position: absolute;
+  top: 56px;
+  left: 48px;
+
+  li {
+    padding: 0px;
+    padding: 19px 45px;
+    padding-bottom: 10px !important;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #707070;
+    padding: 10px !important;
+  }
+}

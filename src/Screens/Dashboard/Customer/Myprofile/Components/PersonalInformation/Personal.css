@@ -1,0 +1,187 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Personal-Main {
+    background-color: #fafafa;
+    height: 170vh;
+    max-width: 100%;
+    position: relative;
+}
+
+/* Header Part start */
+.Personal-Main-Header {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.Personal-Main-div {
+    display: flex;
+    background-color: white;
+    width: 980px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.Personal-Main-div h5 {
+    color: gray;
+    font-size: 16px;
+}
+
+.Personal-card-A {
+    padding: 10px;
+    background-color: #f3eeff;
+}
+
+.Personal-card-A h5 {
+    color: #9f79fc;
+}
+
+.Personal-card-A-A {
+    text-decoration: none;
+    color: #9f79fc;
+    margin-top: 5px,
+}
+
+.Personal-card-H {
+    padding: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.Personal-card-H h5 {
+    color: rgb(27, 18, 18);
+}
+
+.Personal-card-A-B {
+    text-decoration: none;
+    color: rgb(27, 18, 18);
+}
+
+/* Header Part end */
+
+
+/* Main-Body Part start */
+
+.Personal-Main-body {
+    position: absolute;
+    top: 12%;
+    left: 50px;
+    background-color: white;
+    width: 980px;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+
+.Personal-card-Header {
+    position: relative;
+    top: 30px;
+}
+
+.Personal-card-Header h5 {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.Personal-Color {
+    color: #9f79fc;
+}
+
+.img-A {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 27px;
+}
+
+.icon-b {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #9870fb;
+    /* color: "#fdfcff"; */
+    position: relative;
+    right: 20%;
+    top: 38%;
+}
+
+/* Main-Body Part End */
+
+
+/* Main-Body Part-A  start */
+.Personal-Main-body-A {
+    position: absolute;
+    top: 43%;
+    left: 50px;
+    background-color: white;
+    width: 980px;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.Personal-card-Header-A {
+    position: relative;
+    top: 30px;
+}
+
+.Personal-card-Header-A h5 {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+
+/* Main-Body Part-A  End */
+
+
+/* Main-Body Part-B start */
+.Personal-Main-body-B {
+    position: absolute;
+    top: 68%;
+    left: 50px;
+    background-color: white;
+    width: 980px;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.Personal-card-Header-B {
+    position: relative;
+    top: 30px;
+}
+
+.Personal-card-Header-B h5 {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.Icon-A {
+    position: relative;
+    top: 40px;
+    left: 49%;
+}
+
+.input-a::placeholder {
+    color: #753efa;
+    opacity: 1;
+}
+
+/* Main-Body Part-B End */
+.button-b {
+    position: absolute;
+    top: 93%;
+    left: 50px;
+    background-color: #e7e0fa;
+    color: #f8f6fe;
+
+}

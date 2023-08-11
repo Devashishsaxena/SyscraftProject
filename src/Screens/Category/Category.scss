@@ -1,0 +1,78 @@
+@import "../../Utlilities/ResponsiveMixin.scss";
+.icon-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 150px;
+    img{
+        width: 109.77px;
+        height: 110px;
+    }
+}
+.category-title-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 110px;
+    margin: 1em 0;
+    p{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 57px;
+        text-align: center;
+        margin: 0;
+    }
+}
+.category-card-div{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    min-width: 700px;
+    width:100%;
+    min-height: 225px;
+    margin: 2em 0 2em 0;
+    margin: 1em;
+    
+    .category-card-text{
+        margin-top: 3em;
+
+        .category-card-title{
+            margin-bottom: 3em;
+            p{
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 33px;
+                margin: 0;
+            }
+        }
+        .category-card-desc{
+            margin-top:3em;
+            p{
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                margin:0;
+                color: #707070;
+            }
+        }
+    }
+    .icon-category-card{
+         img{
+        width: 91px;
+        height: 59px;
+        margin-top: 2em;
+        }
+}
+}
+
+@include respond-between(xxs, xs){
+
+}
